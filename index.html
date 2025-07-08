@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Saismaran Mishra | Investment Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>💼 Saismaran Mishra's Investment Dashboard</h1>
+    <p>Tracking real stock performance and growth over time</p>
+  </header>
+
+  <main>
+    <section class="profile">
+      <h2>📇 Investor Profile</h2>
+      <ul>
+        <li><strong>Name:</strong> Saismaran Mishra</li>
+        <li><strong>Email:</strong> <a href="mailto:saismaran@example.com">saismaran@example.com</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sai-smaran-mishra-bba8742b5" target="_blank">View Profile</a></li>
+      </ul>
+    </section>
+
+    <section class="investments">
+      <h2>📈 Investment Overview</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Stock</th>
+            <th>Link</th>
+            <th>Investment Date</th>
+            <th>Amount (₹)</th>
+            <th>Current Value (₹)</th>
+            <th>Return (%)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Adani Power</td>
+            <td><a href="https://www.moneycontrol.com/india/stockpricequote/power-generation-distribution/adanipower/AP51" target="_blank">Check</a></td>
+            <td>08-Jul-2024</td>
+            <td>1,00,000</td>
+            <td>1,50,000</td>
+            <td>+50%</td>
+          </tr>
+          <tr>
+            <td>Infosys</td>
+            <td><a href="https://www.moneycontrol.com/india/stockpricequote/computers-software/infosys/IT" target="_blank">Check</a></td>
+            <td>01-Jan-2024</td>
+            <td>80,000</td>
+            <td>91,000</td>
+            <td>+13.75%</td>
+          </tr>
+          <tr>
+            <td>HDFC Bank</td>
+            <td><a href="https://www.moneycontrol.com/india/stockpricequote/banks-private-sector/hdfcbank/HDF01" target="_blank">Check</a></td>
+            <td>15-Apr-2024</td>
+            <td>60,000</td>
+            <td>66,000</td>
+            <td>+10%</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>📊 Portfolio Comparison</h2>
+      <canvas id="portfolioChart"></canvas>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Saismaran Mishra | Built with 💡 using HTML, CSS, and Chart.js | Hosted on <a href="https://vercel.com" target="_blank">Vercel</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
